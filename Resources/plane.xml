@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:a400a8873178df5bda648a872990a8b0$ -->
+<TextureAtlas imagePath="plane.png">
+    <SubTexture name="bomb_add" x="144" y="134" width="29" height="46"/>
+    <SubTexture name="bomb_icon" x="184" y="117" width="30" height="29"/>
+    <SubTexture name="bullet_0" x="112" y="2" width="9" height="17"/>
+    <SubTexture name="bullet_1" x="66" y="238" width="8" height="15"/>
+    <SubTexture name="bullet_add" x="112" y="117" width="30" height="46"/>
+    <SubTexture name="enemy_b" x="2" y="2" width="108" height="164"/>
+    <SubTexture name="enemy_m" x="130" y="2" width="69" height="89"/>
+    <SubTexture name="enemy_s" x="201" y="88" width="39" height="27"/>
+    <SubTexture name="explosion_01" x="216" y="117" width="26" height="26"/>
+    <SubTexture name="explosion_02" x="144" y="93" width="38" height="39"/>
+    <SubTexture name="explosion_03" x="201" y="44" width="40" height="42"/>
+    <SubTexture name="hero_1" x="66" y="168" width="62" height="68"/>
+    <SubTexture name="hero_2" x="2" y="168" width="62" height="75"/>
+    <SubTexture name="pause_button" x="175" y="148" width="22" height="23"/>
+    <SubTexture name="resume_button" x="216" y="145" width="25" height="27"/>
+    <SubTexture name="smoke_01" x="201" y="2" width="48" height="20"/>
+    <SubTexture name="smoke_02" x="201" y="24" width="48" height="18"/>
+</TextureAtlas>
