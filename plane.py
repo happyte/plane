@@ -21,9 +21,9 @@ class Bullet(object):
 
 	def draw(self,screen):
 		if self.direction == 'down':
-			self.y += 1
+			self.y += 8
 		elif self.direction == 'up':
-			self.y -= 1
+			self.y -= 8
 		screen.blit(self.image,(self.x,self.y))
 	
 #定义一个飞机基类		
@@ -31,7 +31,7 @@ class Plane(object):
 	"""Plane"""
 	def __init__(self):
 		#导弹间隔发射时间1s
-		self.bulletSleepTime = 0.2
+		self.bulletSleepTime = 0.3
 		self.lastShootTime = time.time()
 		#存储导弹列表
 		self.bulletList = []
@@ -276,17 +276,17 @@ if __name__ == '__main__':
     	# easy模式
     	if interval < 10:
     		if time.time() - lastEnemyTime >= easyEnemySleepTime:
-    			GameInit.createEnemy(0.6)   #传入的参数是speed
+    			GameInit.createEnemy(5)   #传入的参数是speed
     			lastEnemyTime = time.time()
     	# middle模式
     	elif interval >= 10 and interval < 30:
     		if time.time() - lastEnemyTime >= middleEnemySleepTime:
-    			GameInit.createEnemy(1)
+    			GameInit.createEnemy(10)
     			lastEnemyTime = time.time()
     	# hard模式
     	elif interval >= 30:
     		if time.time() - lastEnemyTime >= hardEnemySleepTime:
-    			GameInit.createEnemy(1.4)
+    			GameInit.createEnemy(13)
     			lastEnemyTime = time.time()
     	GameInit.shoot()
     	GameInit.setXY()
